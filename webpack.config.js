@@ -4,8 +4,16 @@ const MiniCSSExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'none',
-  entry: './src/index.js',
-  plugins: [new MiniCSSExtractPlugin()],
+  entry: './src/app.js',
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'src/index.html',
+      hash: true,
+      inject: 'body',
+    }),
+    new MiniCSSExtractPlugin(),
+  ],
   module: {
     rules: [
       {
@@ -19,7 +27,7 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [MiniCSSExtractPlugin.loader, 'css-loader'],
       },
     ],
