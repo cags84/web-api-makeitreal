@@ -1,18 +1,20 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "eamodio.gitlens",
-        "Zignd.html-css-class-completion",
-        "mrmlnc.vscode-apache",
-        "mikestead.dotenv",
-        "coenraads.bracket-pair-colorizer",
-        "wayou.vscode-todo-highlight",
-        "felipe-mendes.slack-theme",
-        "ritwickdey.liveserver",
-        "whizkydee.material-palenight-theme",
-        "pkief.material-icon-theme",
-        "dracula-theme.theme-dracula",
-        "william-voyek.vscode-nginx"
-    ]
+  "recommendations": [
+    "waderyan.nodejs-extension-pack",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "Zignd.html-css-class-completion",
+    "mrmlnc.vscode-apache",
+    "mikestead.dotenv",
+    "coenraads.bracket-pair-colorizer",
+    "wayou.vscode-todo-highlight",
+    "felipe-mendes.slack-theme",
+    "ritwickdey.liveserver",
+    "whizkydee.material-palenight-theme",
+    "pkief.material-icon-theme",
+    "dracula-theme.theme-dracula",
+    "william-voyek.vscode-nginx",
+    "mgmcdermott.vscode-language-babel"
+  ]
 }
