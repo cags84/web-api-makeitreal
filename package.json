@@ -1,0 +1,22 @@
+{
+  "name": "web-api-makeitreal",
+  "version": "1.0.0",
+  "description": "Implement a tool to consume an API service.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cags84/web-api-makeitreal.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Carlos Guzmán <cags84@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cags84/web-api-makeitreal/issues"
+  },
+  "homepage": "https://github.com/cags84/web-api-makeitreal#readme"
+}
