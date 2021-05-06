@@ -28,6 +28,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
+        exclude: /(node_modules|bower_components)/,
         use: [MiniCSSExtractPlugin.loader, 'css-loader'],
       },
     ],
@@ -38,5 +39,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
+    port: 9001,
+    headers: { 'Access-Control-Allow-Origin': '*' },
   },
 };
